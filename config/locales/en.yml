@@ -82,3 +82,4 @@ en:
       login: "Login in"
       signup: "Sign up now!"
       new_user: "New user? %{link_to_signup}"
+      remember_me: "Remember me on this computer"

@@ -68,6 +68,7 @@ en:
       create_account: "Create my account"
     create:
       success: "Sign up successful - Welcome to the Sample App!"
+      active_email: "Please check your email to activate your account."
     show:
       not_found: "Can't find the id"
     update:
@@ -102,3 +103,14 @@ en:
       signup: "Sign up now!"
       new_user: "New user? %{link_to_signup}"
       remember_me: "Remember me on this computer"
+  account_activations:
+    edit:
+      actived_success: "Account activated!"
+      actived_faild: "Invalid activation link"
+  mailers:
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      title: "Sample App"
+      hi: "Hi %{user_name}, "
+      description: "Welcome to the Sample App! Click on the link below to activate your account:"

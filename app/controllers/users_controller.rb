@@ -9,9 +9,9 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user
-    flash.now[:danger] = t ".not_found"
-    render :show
+    @microposts = @user.microposts.paginate(page: params[:page],
+                                          per_page: Settings.per_page_micropost,
+                                          scope: sort_by_created_at)
   end
 
   def new
@@ -55,12 +55,6 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit :name, :email,
       :password, :password_confirmation
-  end
-
-  def logged_in_user
-    store_location unless logged_in?
-    flash[:danger] = t ".please_login" unless logged_in?
-    redirect_to login_url unless logged_in?
   end
 
   def correct_user

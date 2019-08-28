@@ -1,0 +1,214 @@
+vi:
+  hello: "Hello world"
+  controller:
+    application:
+      error: "Ngôn ngữ không được hổ trợ"
+    relationships:
+      not_found: "Không tìm thấy user"
+  will_paginate:
+    previous_label: "Trước"
+    next_label: "Tiếp"
+    page_gap: "…"
+  activerecord:
+    errors:
+      messages:
+        blank: "không được để trống"
+        inclusion: "không thuộc danh sách cho trước"
+        invalid: "không đúng định dạng"
+        confirmation: "không khớp"
+      template:
+        body: "Lỗi xảy ra ở các trường sau:"
+      header:
+        one: "1 lỗi xảy ra"
+        other:  "%{pluralize} xảy ra"
+  datetime:
+      distance_in_words:
+          about_x_hours:
+            one: "1 giờ"
+            other:  "%{count} giờ "
+          x_minutes:
+            one: "1 phút"
+            other: "%{count} phút"
+          less_than_x_minutes:
+            one: "chưa tới 1 phút"
+            other: "%{count} phút"
+          x_days:
+            one: "1 ngày"
+            other: "%{count} ngày"
+  layouts:
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
+      login: "Vui lòng đăng nhập !"
+    footer:
+      content: "Tác giả %{link_to_railstutorial} bởi
+                %{link_to_michael} "
+      link_to_railstutorial_name: "Ruby on Rails Tutorial"
+      link_to_michael_name: " Michael Hartl"
+      about: "Về Chúng Tôi"
+      contact: "Liên Hệ"
+      news: "Tin Tức"
+    header:
+      name_app: "sample app"
+      home: "Trang Chủ"
+      help: "Trợ Giúp"
+      login: "Đăng Nhập"
+      logout: "Đăng Xuất"
+      profile: "Hồ Sơ"
+      setting: "Cài Đặt"
+      users: "Quản lý User"
+  static_page:
+    home:
+      home_title: "Chào mừng bạn đến Sample App"
+      description: "Đây là trang chủ  %{link_to_rails} của ứng dụng."
+      link_to_rails_name: "Ruby on Rails Tutorial"
+      link_to_rails: "https://www.railstutorial.org/"
+      link_to_signup: "Đăng ký ngay !"
+      micropost_title: "Micropost Feed"
+    about:
+      about_title: "Về  Chúng Tôi"
+      about_description: " %{link_access_railstutorial} là một
+                          %{link_access_railsbook} và
+                          %{link_access_railsscreencast} để dạy phát triển web với
+                          %{link_access_ruby}. Đây là ứng dụng mẫu cho hướng dẫn."
+      link_access_railstutorial: "https://www.railstutorial.org/"
+      link_access_railstutorial_name: "Ruby on Rails Tutorial"
+      link_access_railsbook: "https://www.railstutorial.org/book"
+      link_access_railsbook_name: "Book"
+      link_access_railsscreencast: "http://screencasts.railstutorial.org/"
+      link_access_railsscreencast_name: "screencast series"
+      link_access_ruby: "http://rubyonrails.org/"
+      link_access_ruby_name: "Ruby on Rails"
+    help:
+      help_title: "Trợ Giúp"
+      help_description: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
+                          %{link_access_railshelp} Để nhận trợ giúp về ứng dụng mẫu này, hãy xem cuốn sách
+                          %{link_access_railsbook}."
+      link_access_railshelp: "https://www.railstutorial.org/help"
+      link_access_railshelp_name: "Phần trợ giúp của Rails Tutorial"
+      link_access_railsbook: "https://www.railstutorial.org/book"
+      link_access_railsbook_name: "Ruby on Rails Tutorial"
+    contact:
+      contact_title: "Liên Hệ"
+      contact_description: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại
+                            %{link_access_railcontact}."
+      link_access_railcontact: "https://www.railstutorial.org/contact"
+      link_access_railscontact_name: "Liên hệ trang"
+  users:
+    new:
+      new_title: "Đăng Nhập"
+      name: "Họ và tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mât khẩu"
+      create_account: "Tạo tài khoản"
+    create:
+      success: "Đăng ký thành công - Chào mừng đến Sample App!"
+      active_email: "Vui lòng kiểm tra email để xác thực tài khoản của bạn !"
+    show:
+      not_found: "Không thể tìm thấy id"
+      microposts_count: "Microposts %{count}"
+    update:
+      update_success: "Cập nhật hồ sơ"
+    edit:
+      please_login: "Vui lòng đăng nhập"
+      title: "Chỉnh sửa user"
+      save_changes: "Lưu"
+      description: "Cập nhật hồ sơ của bạn"
+      change: "Thay đổi"
+    user:
+      delete: "Xóa"
+      confirm: "Chắn chắn xóa !"
+    index:
+      title: "Tất cả User"
+      login: "Đăng nhập thất bại"
+    destroy:
+      deleted: "Xóa user"
+      not_delete: "Không thể xóa user"
+    load_user:
+      user_notfound: "Không tìm thấy user"
+    form:
+      name: "Họ và tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+    following:
+      title: "Đang theo dõi"
+    followers:
+      title: "Người theo dõi"
+    unfollow:
+      submit: "Bỏ theo dõi"
+    follow:
+      submit: "Theo dõi"
+  shared:
+    error_messages:
+      alert: "Nội dung vừa nhập có %{pluralize} ."
+      error: "lỗi"
+    micropost_form:
+      post: "Đăng"
+      placeholder: "Nhập nội dung..."
+    user_info:
+      profile: "Xem hồ sơ"
+      micropost: "micropost"
+    stats:
+      followers: "Người theo dõi"
+      following: "Đang theo dõi"
+  sessions:
+    create:
+      invalid: "Email/password không đúng"
+    new:
+      email: "Email"
+      password: "mật khẩu"
+      login: "Đăng Nhập"
+      signup: "Đăng ký ngay !"
+      new_user: "Tạo mới tài khoản? %{link_to_signup}"
+      remember_me: "Ghi nhớ đăng nhập"
+      forgot_password: "Quên mật khẩu"
+  account_activations:
+    edit:
+      actived_success: "Tài khoản đã được kích hoạt"
+      actived_faild: "Liên kết kích hoạt không hợp lệ"
+  mailers:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      title: "Sample App"
+      hi: "Chào %{user_name}, "
+      description: "Vui lòng click vào đường dẫn để xác thực tài khoản:"
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      title_link_to: "Thay đổi mật khẩu"
+      p1: "Để đặt lại mật khẩu của bạn, nhấp vào liên kết dưới đây:"
+      p2: "Liên kết này sẽ hết hạn sau hai giờ nữa."
+      p3: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      email: "Email"
+      submit: "Gửi"
+    edit:
+      title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      submit: "Cập nhật mật khẩu"
+    create:
+      find: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+      not_find: "Địa chỉ email không tìm thấy"
+    update:
+      password_error: "Mật khẩu không hợp lệ"
+      done: "Mật khẩu đã được khôi phục"
+    check_expiration:
+      expiration: "Link đã hết hạn"
+  microposts:
+    create:
+      create_success: "Micropost đã được tạo"
+    destroy:
+      delete_success : "Micropost đã xóa"
+      delete_faild: "Không thể xóa Micropost"
+    micropost:
+      timestamp: " Đăng cách đây %{time}"
+      delete: "Xóa"
+      delete_confirm: "Bạn có chắc !"

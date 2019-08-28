@@ -16,6 +16,9 @@ en:
       home: "Home"
       help: "Help"
       login: "Login"
+      logout: "Logout"
+      profile: "Profile"
+      setting: "Setting"
   static_page:
     home:
       home_title: "Welcome to the Sample App"
@@ -70,3 +73,12 @@ en:
     error_messages:
       alert: "The form contains %{pluralize} ."
       error: "error"
+  sessions:
+    create:
+      invalid: "Invalid email/password combination"
+    new:
+      email: "Email"
+      password: "Password"
+      login: "Login in"
+      signup: "Sign up now!"
+      new_user: "New user? %{link_to_signup}"

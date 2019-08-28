@@ -19,6 +19,7 @@ en:
       logout: "Logout"
       profile: "Profile"
       setting: "Setting"
+      users: "Users"
   static_page:
     home:
       home_title: "Welcome to the Sample App"
@@ -69,6 +70,24 @@ en:
       success: "Sign up successful - Welcome to the Sample App!"
     show:
       not_found: "Can't find the id"
+    update:
+      update_success: "Profile updated"
+    edit:
+      please_login: "Please log in."
+      title: "Edit user"
+      save_changes: "Sava changes"
+      description: "Update your profile"
+      change: "Change"
+    user:
+      delete: "Delete"
+      confirm: "You sure?"
+    index:
+      title: "All users"
+    destroy:
+      deleted: "User deleted"
+      not_delete: "Don't delete user"
+    get_user:
+      user_notfound: "User is not found"
   shared:
     error_messages:
       alert: "The form contains %{pluralize} ."

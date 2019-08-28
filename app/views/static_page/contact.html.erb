@@ -1,0 +1,5 @@
+<% provide(:title, t(".contact_title")) %>
+<h1><%= t(".contact_title") %></h1>
+<p>
+  <%= t(".contact_description", link_access_railcontact: link_to( t(".link_access_railcontact_name"), t(".link_access_railcontact"))).html_safe%>
+</p>

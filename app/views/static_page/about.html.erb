@@ -1,0 +1,10 @@
+<% provide(:title, t(".about_title")) %>
+<h1><%= t(".about_title") %></h1>
+<p>
+  <%= t(".about_description",
+    link_access_railstutorial: link_to( t(".link_access_railstutorial_name"), "https://www.railstutorial.org/" ),
+    link_access_railsbook: link_to( t(".link_access_railsbook_name"), "https://www.railstutorial.org/book" ),
+    link_access_railsscreencast: link_to( t(".link_access_railsscreencast_name"), "http://screencasts.railstutorial.org/" ),
+    link_access_ruby: link_to( t(".link_access_ruby_name"), "http://rubyonrails.org/" )).html_safe
+  %>
+</p>

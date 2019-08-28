@@ -3,11 +3,25 @@ en:
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+    footer:
+      content: "The %{link_to_railstutorial} by
+                %{link_to_michael} "
+      link_to_railstutorial_name: "Ruby on Rails Tutorial"
+      link_to_michael_name: " Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+    header:
+      name_app: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Login"
   static_page:
     home:
-      home: "Sample App"
+      home_title: "Welcome to the Sample App"
       description: "  This is the home page for the %{link_to_rails} sample application."
-      link_access: "https://www.railstutorial.org/"
+      link_to_rails_name: "Ruby on Rails Tutorial"
+      link_to_rails: "https://www.railstutorial.org/"
     about:
       about_title: "About"
       about_description: " The %{link_access_railstutorial} is a

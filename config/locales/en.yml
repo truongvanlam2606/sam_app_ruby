@@ -53,3 +53,5 @@ en:
                             %{link_access_railcontact}."
       link_access_railcontact: "https://www.railstutorial.org/contact"
       link_access_railscontact_name: "contact page"
+  users:
+    new_user: "Create new user"

@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   attr_accessor :name, :email
+
   def show
     @user = User.find_by id: params[:id]
     return if @user

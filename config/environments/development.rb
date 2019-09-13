@@ -65,6 +65,9 @@ Rails.application.configure do
   # host = "localhost:3000"
   # config.action_mailer.default_url_options = { host: host, protocol: "http" }
 
+  #i18n-js
+  config.middleware.use I18n::JS::Middleware
+
   #email mailtrap.io
   config.action_mailer.perform_deliveries = true
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }

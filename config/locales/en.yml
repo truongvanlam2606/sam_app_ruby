@@ -1,8 +1,11 @@
 en:
+  js:
+    alert: "Maximum file size is 1MB. Please choose a smaller file."
   hello: "Hello world"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+      login: "Please log in."
     footer:
       content: "The %{link_to_railstutorial} by
                 %{link_to_michael} "
@@ -27,6 +30,7 @@ en:
       link_to_rails_name: "Ruby on Rails Tutorial"
       link_to_rails: "https://www.railstutorial.org/"
       link_to_signup: "Sign up now!"
+      micropost_title: "Micropost Feed"
     about:
       about_title: "About"
       about_description: " The %{link_access_railstutorial} is a
@@ -71,6 +75,7 @@ en:
       active_email: "Please check your email to activate your account."
     show:
       not_found: "Can't find the id"
+      microposts_count: "Microposts %{count}"
     update:
       update_success: "Profile updated"
     edit:
@@ -87,12 +92,23 @@ en:
     destroy:
       deleted: "User deleted"
       not_delete: "Don't delete user"
-    get_user:
+    load_user:
       user_notfound: "User is not found"
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation Password"
   shared:
     error_messages:
       alert: "The form contains %{pluralize} ."
       error: "error"
+    micropost_form:
+      post: "Post"
+      placeholder: "Compose new micropost..."
+    user_info:
+      profile: "view my profile"
+      micropost: "micropost"
   sessions:
     create:
       invalid: "Invalid email/password combination"
@@ -143,3 +159,13 @@ en:
       done: "Password has been reset."
     check_expiration:
       expiration: "Password reset has expired."
+  microposts:
+    create:
+      create_success: "Micropost created!"
+    destroy:
+      delete_success : "Micropost deleted"
+      delete_faild: "Micropost don't deleted"
+    micropost:
+      timestamp: " Posted %{time} ago."
+      delete: "Delete"
+      delete_confirm: "You are sure !"

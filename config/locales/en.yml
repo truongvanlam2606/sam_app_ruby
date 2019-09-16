@@ -2,6 +2,11 @@ en:
   js:
     alert: "Maximum file size is 1MB. Please choose a smaller file."
   hello: "Hello world"
+  controller:
+    application:
+      error: "Language is not supported"
+    relationships:
+      not_found: "Not found user"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -99,6 +104,14 @@ en:
       email: "Email"
       password: "Password"
       password_confirmation: "Confirmation Password"
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
+    unfollow:
+      submit: "Unfollow"
+    follow:
+      submit: "Follow"
   shared:
     error_messages:
       alert: "The form contains %{pluralize} ."
@@ -109,6 +122,9 @@ en:
     user_info:
       profile: "view my profile"
       micropost: "micropost"
+    stats:
+      followers: "Followers"
+      following: "Following"
   sessions:
     create:
       invalid: "Invalid email/password combination"

@@ -12,10 +12,26 @@ vi:
   activerecord:
     errors:
       messages:
-        blank: "không được để trống"
-        inclusion: "không thuộc danh sách cho trước"
-        invalid: "không đúng định dạng"
-        confirmation: "không khớp"
+        accepted: "phải được chấp nhận"
+        blank: "không thể để trống"
+        confirmation: "Xác nhận không khớp"
+        empty: "không thể để trống"
+        equal_to: "Phải bằng %{count} ký tự"
+        even: "Phải đồng đề"
+        exclusion: "Được bảo lưu"
+        greater_than: "Phải lớn hơn %{count} ký tự"
+        greater_than_or_equal_to: "Phải lớn hơn hoặc bằng %{count} ký tự"
+        inclusion: "Không có trong danh sách"
+        invalid: "Không hợp lệ"
+        less_than: "Phải nhỏ hơn %{count} ký tự"
+        less_than_or_equal_to: "phải nhỏ hơn hoặc bằng %{count} ký tự"
+        not_a_number: "Không phải kiểu số"
+        odd: "phải là số lẻ"
+        taken: "đã tồn tại"
+        too_long: "quá dài (tối đa là% {Count} ký tự)"
+        too_short: "quá ngắn (tối thiểu là% {đếm} ký tự)"
+        wrong_length: "là độ dài sai (nên là% {Count} ký tự)"
+        record_invalid: "Lỗi Record"
       template:
         body: "Lỗi xảy ra ở các trường sau:"
       header:
@@ -150,8 +166,8 @@ vi:
       profile: "Xem hồ sơ"
       micropost: "micropost"
     stats:
-      followers: "Người theo dõi"
-      following: "Đang theo dõi"
+      followers: "Đang theo dõi"
+      following: "Người theo dõi"
   sessions:
     create:
       invalid: "Email/password không đúng"

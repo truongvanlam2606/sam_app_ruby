@@ -72,12 +72,20 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   config.action_mailer.delivery_method = :smtp
+#   config.action_mailer.smtp_settings = {
+#   :user_name => Figaro.env.user_name,
+#   :password => Figaro.env.password,
+#   :address => Figaro.env.address,
+#   :domain => Figaro.env.domain,
+#   :port => Figaro.env.port,
+#   :authentication => :cram_md5
+# }
   config.action_mailer.smtp_settings = {
-  :user_name => Figaro.env.user_name,
-  :password => Figaro.env.password,
-  :address => Figaro.env.address,
-  :domain => Figaro.env.domain,
-  :port => Figaro.env.port,
-  :authentication => :cram_md5
-}
+    :user_name => "75481a0e1ae8a7",
+    :password => "0017a06e8c04f0",
+    :address => "smtp.mailtrap.io",
+    :domain => "smtp.mailtrap.io",
+    :port => "2525",
+    :authentication => :cram_md5
+  }
 end

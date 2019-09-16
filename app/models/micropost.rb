@@ -8,7 +8,7 @@ class Micropost < ApplicationRecord
   validate :picture_size
   scope :find_ids, ->(following_ids, user_id){where("user_id IN (?) OR user_id = ?", following_ids, user_id)}
   def picture_size
-    return if picture.size < Settings.picture_size.megabytes
+    return if picture.blank? || picture.size < Settings.picture_size.megabytes
     errors.add(:picture, Settings.error_image_size)
   end
 end

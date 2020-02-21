@@ -35,6 +35,7 @@ class UsersController < ApplicationController
       flash[:success] = t ".update_success"
       redirect_to @user
     else
+      flash[:success] = t ".update_success"
       render :edit
     end
   end
